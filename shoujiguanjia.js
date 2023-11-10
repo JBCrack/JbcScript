@@ -2,11 +2,14 @@
 https://apps.apple.com/cn/app/id1329937809
 
 [rewrite_local]
-^https?:\/\/api\.apphud\.com\/v1\/subscriptions url script-response-body https://github.com/JBCrack/JbcScript/edit/main/shoujiguanjia.js
+
+# ～ RevenueCat@ddgksf2013
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$) url script-echo-response https://gist.githubusercontent.com/ddgksf2013/dbb1695cd96743eef18f3fac5c6fe227/raw/revenuecat.js
+^https:\/\/api\.revenuecat\.com\/.+\/subscribers\/[^/]+/(offerings|attributes)$ url request-header (\r\n)X-RevenueCat-ETag:.+(\r\n) request-header $1X-RevenueCat-ETag:$2
 
 [mitm]
-hostname = api.apphud.com
 
+hostname=api.revenuecat.com
 *************************************/
 
 var ua = $request.headers['User-Agent'] || $request.headers['user-agent'];
