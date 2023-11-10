@@ -1,3 +1,6 @@
+# > 44 手机硬件管家
+https://apps.apple.com/cn/app/id1329937809
+
 [rewrite_local]
 ^https?:\/\/api\.apphud\.com\/v1\/subscriptions url script-response-body https://github.com/JBCrack/JbcScript/edit/main/shoujiguanjia.js
 
