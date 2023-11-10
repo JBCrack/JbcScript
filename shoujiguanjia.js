@@ -14,7 +14,8 @@ var obj = JSON.parse(JSON.stringify(cuttlefish));
 ddgksf2021['product_identifier']="com.ddgksf2013.premium.yearly";
 obj['subscriber']['subscriptions']['com.ddgksf2013.premium.yearly']=ddgksf2013;
 
-else if(ua.indexOf('CPUMonitor') != -1) {//手机硬件管家
+ua.indexOf('CPUMonitor') != -1
+{//手机硬件管家
 	obj['subscriber']['entitlements']['Pro']=ddgksf2021;	
 }
 
