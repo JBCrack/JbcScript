@@ -1,5 +1,5 @@
 [rewrite_local]
-^https?:\/\/api\.apphud\.com\/v1\/subscriptions url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/replica.js
+^https?:\/\/api\.apphud\.com\/v1\/subscriptions url script-response-body https://github.com/JBCrack/JbcScript/edit/main/shoujiguanjia.js
 
 [mitm]
 hostname = api.apphud.com
