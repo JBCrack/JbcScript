@@ -1,3 +1,17 @@
+/***********************************
+
+> ScriptName        RevenueCat多合一脚本[墨鱼版]
+> Author            @ddgksf2013
+> ForHelp           若有屏蔽广告的需求，可公众号后台回复APP名称
+> WechatID          墨鱼手记
+> TgChannel         https://t.me/ddgksf2021
+> Contribute        https://t.me/ddgksf2013_bot
+> Feedback          📮 ddgksf2013@163.com 📮
+> UpdateTime        2023-11-10
+> Suitable          自行观看“# > ”注释内容，解锁是暂时的，购买也不是永久的[订阅、跑路]
+> Attention         如需引用请注明出处，谢谢合作！
+> ScriptURL         https://gist.githubusercontent.com/ddgksf2013/dbb1695cd96743eef18f3fac5c6fe227/raw/revenuecat.js
+
 # > 44 手机硬件管家
 https://apps.apple.com/cn/app/id1329937809
 
